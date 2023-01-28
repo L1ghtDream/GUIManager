@@ -8,4 +8,18 @@ public interface GUIUser {
 
     Player getPlayer();
 
+    static GUIUser of(Player player){
+        return new GUIUser() {
+            @Override
+            public boolean isOnline() {
+                return true;
+            }
+
+            @Override
+            public Player getPlayer() {
+                return player;
+            }
+        };
+    }
+
 }
