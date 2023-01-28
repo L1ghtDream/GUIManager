@@ -1,7 +1,7 @@
 # GUI Manager
 
 ![Build](../../actions/workflows/build.yml/badge.svg)
-![Version](https://img.shields.io/badge/Version-1.3.3-red.svg)
+![Version](https://img.shields.io/badge/Version-1.4.1-red.svg)
 
 A library that allows the easy creation of GUIs in Spigot
 
@@ -25,8 +25,8 @@ A library that allows the easy creation of GUIs in Spigot
 <dependencies>
     <dependency>
         <groupId>dev.lightdream</groupId>
-        <artifactId>GUIManager</artifactId>
-        <version>1.3.3</version>
+        <artifactId>gui-manager</artifactId>
+        <version>1.4.1</version>
     </dependency>
     <!-- Other dependencies -->
 </dependencies>
@@ -42,7 +42,7 @@ repositories {
 }
 
 dependencies {
-    implementation "dev.lightdream:GUIManager:1.3.3"
+    implementation "dev.lightdream:gui-manager:1.4.1"
 
     // Other dependencies
 }
